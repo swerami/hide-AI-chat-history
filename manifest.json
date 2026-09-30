@@ -30,6 +30,12 @@
       "css": ["sites/chatgpt.css"],
       "js": ["shared/sites.js", "content.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "css": ["sites/gemini.css"],
+      "js": ["shared/sites.js", "content.js"],
+      "run_at": "document_start"
     }
   ]
 }

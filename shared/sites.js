@@ -1,6 +1,7 @@
 const HCH_SITES = [
   { key: "claude", name: "Claude", hosts: ["claude.ai"] },
   { key: "chatgpt", name: "ChatGPT", hosts: ["chatgpt.com"] },
+  { key: "gemini", name: "Gemini", hosts: ["gemini.google.com"] },
 ];
 
 const HCH_DEFAULTS = { enabled: true, sites: {} };

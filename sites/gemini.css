@@ -1,0 +1,14 @@
+html:not([data-hch-off]) [data-test-id="conversation"] span[dir="auto"] {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+html:not([data-hch-off])
+  [data-test-id="conversation"]:is(
+    :hover,
+    :has(:focus-visible),
+    :has([data-test-id="actions-menu-button"][aria-expanded="true"])
+  )
+  span[dir="auto"] {
+  opacity: 1;
+}
