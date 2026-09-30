@@ -24,6 +24,12 @@
       "css": ["sites/claude.css"],
       "js": ["shared/sites.js", "content.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "css": ["sites/chatgpt.css"],
+      "js": ["shared/sites.js", "content.js"],
+      "run_at": "document_start"
     }
   ]
 }

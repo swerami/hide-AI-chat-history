@@ -1,0 +1,15 @@
+html:not([data-hch-off]) a[data-sidebar-item][href*="/c/"] span[dir="auto"] {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+html:not([data-hch-off])
+  a[data-sidebar-item][href*="/c/"]:is(
+    :hover,
+    :focus-visible,
+    :has(:focus-visible),
+    :has([data-conversation-options-trigger][aria-expanded="true"])
+  )
+  span[dir="auto"] {
+  opacity: 1;
+}
