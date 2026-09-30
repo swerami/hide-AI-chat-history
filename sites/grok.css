@@ -1,0 +1,16 @@
+html:not([data-hch-off]) [data-sidebar="menu-item"] a[href*="/c/"] > span {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+html:not([data-hch-off])
+  [data-sidebar="menu-item"]:is(
+    :hover,
+    :has(:focus-visible),
+    :has([aria-expanded="true"]),
+    :has([data-state="open"])
+  )
+  a[href*="/c/"]
+  > span {
+  opacity: 1;
+}

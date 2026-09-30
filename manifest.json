@@ -36,6 +36,12 @@
       "css": ["sites/gemini.css"],
       "js": ["shared/sites.js", "content.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://grok.com/*"],
+      "css": ["sites/grok.css"],
+      "js": ["shared/sites.js", "content.js"],
+      "run_at": "document_start"
     }
   ]
 }
