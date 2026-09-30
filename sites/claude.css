@@ -1,0 +1,18 @@
+html:not([data-hch-off])
+  :is([data-row-key^="chat:"], [data-row-key^="code:"], [data-row-key^="cowork:"])
+  [data-row-label] {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+html:not([data-hch-off])
+  :is([data-row-key^="chat:"], [data-row-key^="code:"], [data-row-key^="cowork:"])
+  :is(
+    [data-row]:hover,
+    [data-row]:has(:focus-visible),
+    [data-row][data-menu-open="true"],
+    [data-row][data-context-menu-open="true"]
+  )
+  [data-row-label] {
+  opacity: 1;
+}

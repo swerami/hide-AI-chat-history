@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hide Chat History</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../icons/icon-128.png" alt="" width="36" height="36" />
+      <div>
+        <h1>Hide Chat History</h1>
+        <p>Hover a row in the sidebar to reveal its title.</p>
+      </div>
+    </header>
+
+    <main id="controls" hidden>
+      <label class="row master">
+        <span>Hide titles</span>
+        <input type="checkbox" id="enabled" role="switch" />
+      </label>
+
+      <fieldset id="sites">
+        <legend>Sites</legend>
+      </fieldset>
+    </main>
+
+    <script src="../shared/sites.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
