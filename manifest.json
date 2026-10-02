@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Hide Chat History",
+  "name": "Hide AI Chat History",
   "version": "0.1.0",
   "description": "Hides chat titles in AI chat sidebars. Hover a row to reveal it.",
   "icons": {
@@ -11,7 +11,7 @@
   },
   "permissions": ["storage"],
   "action": {
-    "default_title": "Hide Chat History",
+    "default_title": "Hide AI Chat History",
     "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/icon-16.png",
