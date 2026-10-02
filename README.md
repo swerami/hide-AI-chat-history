@@ -18,12 +18,14 @@ Click the extension's icon to change the settings. "Hide titles" turns hiding on
 
 ## Install
 
-The Chrome Web Store link is coming soon. Until then, you can load it from source:
+The Chrome Web Store link is coming soon. Until then, you can install it by hand:
 
-1. Clone this repo, or download it as a ZIP and unzip it.
+1. Download the `hide-ai-chat-history` zip from the [latest release](https://github.com/swerami/hide-AI-chat-history/releases/latest), not the Source code files, and unzip it.
 2. Open `chrome://extensions`.
 3. Turn on Developer mode in the top right corner.
-4. Click Load unpacked and select the repo folder.
+4. Click Load unpacked and select the unzipped folder.
+
+You can also clone this repo and select the repo folder in step 4.
 
 ## Privacy
 
